@@ -1,0 +1,21 @@
+- a .vue file is a custom file format that uses html-like syntax
+- describes a portion of the UI
+- consists of three types of top-level language blocks
+    - <template></template>
+    - <script></script>
+    - <style></style>
+- template is like the html stuff
+- script is the script
+- style is the style
+- they come together into one file
+- remember: a browser has no idea what a .vue file is
+    - a webpack with vue loader is going to parse this file
+    - extract the three blocks
+    - assemble them back to a format that browsers cna understnad
+    - all of this is taken care of in the vue CLI
+- a component is a .vue file
+but why?
+- component scoped css: its css will apply to elements of the current component only.
+
+
+
